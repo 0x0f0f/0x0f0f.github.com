@@ -1,0 +1,15 @@
+---
+layout:default
+title: nginx timer
+---
+
+<h2>{{ page.title }}</h2>
+
+struct ngx_rbtree_node_s {  //红黑树节点的六个值
+ngx_rbtree_key_t       key;
+ngx_rbtree_node_t     *left;
+ngx_rbtree_node_t     *right;
+ngx_rbtree_node_t     *parent;
+u_char                 color;
+u_char                 data;
+};
